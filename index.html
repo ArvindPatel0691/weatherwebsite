@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Weather Website</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="search-section">
+            <h1>Check the Weather</h1>
+            <form>
+                <input type="text" placeholder="Enter city name" id="city-input">
+                <button type="button" id="search-button">Search</button>
+            </form>
+        </section>
+        <section class="weather-info">
+            <h2>Current Weather</h2>
+            <div class="weather-details">
+                <p>City: <span id="city-name">New York</span></p>
+                <p>Temperature: <span id="temperature">25°C</span></p>
+                <p>Condition: <span id="condition">Sunny</span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: info@weatherwebsite.com</p>
+        <p>&copy; 2024 Weather Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
