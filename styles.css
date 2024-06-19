@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+main {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.search-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section input {
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+.search-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #0056b3;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-section button:hover {
+    background-color: #003366;
+}
+
+.weather-info {
+    margin-top: 2rem;
+}
+
+.weather-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.weather-details p {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
